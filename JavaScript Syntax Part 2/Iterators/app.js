@@ -1,4 +1,12 @@
 /*jshint esversion: 6 */
+// What is a callback function? It is a function that is passed into an argument
+const veggies = ["broccoli", "spinach", "cauliflower", "broccoflower"];
+const politelyDecline = (veg) => {
+  console.log("No " + veg + " please. I will have pizza with extra cheese.");
+};
+const declineEverything = (strArr) => {
+  strArr.forEach(politelyDecline);
+};
 
 //1. How to use forEach() - [iterates through an array]
 const fruits = ["mango", "papaya", "pineapple", "apple"];
