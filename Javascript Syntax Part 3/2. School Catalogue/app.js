@@ -54,7 +54,7 @@ class HighSchool extends School {
     this._sportsTeam = sportsTeam;
   }
   get sportsTeam() {
-    console.log(this._sportsTeam);
+    return this._sportsTeam;
   }
 }
 
@@ -81,4 +81,4 @@ const alSmith = new HighSchool("Al E. Smith", 415, [
   "Track and Field",
 ]);
 
-alSmith.sportsTeam;
+console.log(alSmith.sportsTeam);
